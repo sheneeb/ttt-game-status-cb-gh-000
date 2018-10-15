@@ -65,6 +65,6 @@ def winner(board)
     return 'X'
   else false
 
-end
+
 end
 end
