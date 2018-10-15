@@ -64,3 +64,4 @@ if won?(board).each do |win_combination|
   return 'X'
 end
 end
+end
