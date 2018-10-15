@@ -61,7 +61,7 @@ end
 def winner(board)
 win?(board).each do |win_combination|
   if win_combination[0] == "X" && win_combination[1] == "X" && win_combination[2] == "X"
-    return win_combination
+    return 'X'
   end
 
 end
