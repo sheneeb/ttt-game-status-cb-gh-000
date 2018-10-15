@@ -67,7 +67,7 @@ def winner(board)
     won?(board).each do |win_combination|
     win_combination=='O'
     return 'O'
-    
+
 end
 end
 end
