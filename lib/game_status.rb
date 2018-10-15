@@ -63,7 +63,6 @@ if won?(board) !=false
 won?(board).each do |win_combination|
   if win_combination[0] == "X" && win_combination[1] == "X" && win_combination[2] == "X"
     return 'X'
-  end
 
 end
  
