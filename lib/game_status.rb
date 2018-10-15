@@ -63,7 +63,7 @@ if won?(board).each do |win_combination|
   win_combination == 'X'
   return 'X'
 else return false
-  
+
 end
 end
 end
