@@ -66,7 +66,6 @@ won?(board).each do |win_combination|
   end
 
 end
-else
-false
+ 
 end
 end
