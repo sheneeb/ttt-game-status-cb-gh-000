@@ -59,15 +59,12 @@ def over?(board)
 end
 
 def winner(board)
-if won?(board).each do |win_combination|
-  win_combination == 'X'
-  return 'X'
+win?(board).each do |win_combination|
+  if win_combination[0] == "X" && win_combination[1] == "X" && win_combination[2] == "X"
+    return win_combination
+  end
+
 end
-end
-if
-  won?(board).each do |win_combination|
-  win_combination == 'O'
-  return 'O'
-end
-end
+else
+false
 end
